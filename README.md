@@ -58,7 +58,7 @@ All models use an 80/20 train-test split (`random_state=42`) with a `StandardSca
 | Linear Regression | Carat only | 2,317,072 | 0.848 |
 | Multiple Regression | Carat, Volume_mm3, Cut/Color/Clarity Rank, Depth, Table, x, y, z | 1,400,333 | 0.908 |
 | Multiple Regression (no x,y,z) | Carat, Volume_mm3, Cut/Color/Clarity Rank, Depth, Table | 1,448,488 | 0.905 |
-| Polynomial Regression (degree 3) | Same as above (no x,y,z) | 366,392 | **0.976** |
+| Polynomial Regression (degree 3) | Same as above (no x,y,z) | 366,392 | **0.961** |
 
 ### Polynomial degree comparison
 
